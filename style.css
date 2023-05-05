@@ -224,6 +224,11 @@ background-image: url(haikei1.jpg);
     background-size: 100% auto;
 }
 
+#contact h1 {
+    font-family: 'Bitter','serif';
+    font-size: 36px;
+    border-bottom: 1px solid #cccccc;
+}
 
 .form {
     background-color: #eaeaea;
