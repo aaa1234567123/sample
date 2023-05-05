@@ -1,0 +1,346 @@
+@charset "utf-8" ;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 15px;
+    line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #3583aa;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #788d98;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo {
+    float:left;
+    margin-top: 50px;
+}
+
+.global-nav {
+    float:right;
+    margin-top: 60px;
+}
+
+.global-nav li {
+    float:left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'bitter', 'serif';
+}
+
+.global-nav li a {
+    color: #ffffff;
+}
+.global-nav li a:hover {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#wrap {
+    clear: both
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer small {
+    font-size: 12px;
+}
+
+#index h1 {
+    font-size: 100px;
+    line-height: 1;
+    color: #ffffff;
+    font-family: 'bitter', 'serif';
+    margin-bottom: 50px;
+}
+
+#index.content {
+    margin-top: 150px;
+}
+
+#index p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.btn a {
+    background-color: #0093d3;
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Bitter' ,'serif';
+    width: 185px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 3px solid #0093d3;
+}
+
+.btn a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #0093d3;
+}
+
+#index footer {
+    width: 960px;
+    margin: 150px auto 0 auto;
+    text-align: left;
+}
+
+#index {
+    background-image: url(haikei1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#about {
+        background-image: url(haikei1.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+        background-size: 100% auto;
+}
+
+#wrap2 {
+    clear: both;
+    background-color: #ffffff;
+    margin-top: 220px;
+    padding: 35px 0;
+}
+
+
+.main-center {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#about h1 {
+    font-family: 'Bitter','serif';
+    font-size: 36px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.main-center h1 {
+    color: #000000;
+}
+
+
+#about h2 {
+    font-family: 'Bitter','serif';
+    font-size: 24px;
+}
+
+#Portfolio h2 {
+    font-family: 'Bitter','serif';
+    font-size: 24px;
+}
+
+
+.icon:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+#about .profile-txt {
+    width: 540px;
+    float: left;
+}
+
+
+#about .profile-image {
+    float: center;
+}
+
+#Portfolio {
+    background-image: url(haikei1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#Portfolio h1 {
+    font-family: 'Bitter','serif';
+    font-size: 36px;
+    border-bottom: 1px solid #cccccc;
+}
+
+#contact {
+background-image: url(haikei1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+
+.form {
+    background-color: #eaeaea;
+    padding: 30px 50px;
+}
+
+.form dl dt {
+    width: 165px;
+    padding: 10px 0;
+    float: left;
+    clear: both;
+}
+
+.form dl dd {
+    padding: 10px 0;
+}
+
+.form .name {
+    width: 240px;
+    height: 30px;
+}
+
+.form .email {
+    width: 300px;
+    height: 30px;
+}
+
+.form .tel {
+    width: 240px;
+    height: 30px;
+}
+
+.form .message {
+    width: 660px;
+    height: 150px;
+}
+
+.form button {
+    background-color: #0093d3;
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Bitter' ,'serif';
+    width: 120px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 3px solid #0093d3;
+    margin-left: 165px;
+}
+
+.form .required:after {
+    content: " * ";
+    color: #ff0000;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 3.5vw;
+    }
+
+    h1 {
+        font-size: 7.2vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    header {
+        width: auto;
+        margin: 0 5%;
+    }
+
+    .logo {
+        float: none;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .global-nav {
+        float: none;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .global-nav li {
+        display: inline;
+        float: none;
+        margin: 0 8px;
+    }
+
+    #wrap {
+        margin-top: 40px;
+        padding: 35px 0 0 ;
+    }
+
+    .content {
+        width: 100px;
+    }
+
+    .main {
+        float: none;
+        width: auto;
+        margin: 0 5%;
+    }
+
+    h2 img {
+        max-width: 100%;
+    }
+
+    .sidebar {
+        width: auto;
+        float: none;
+        margin: 0;
+        padding: 30px 10% 10px;
+        background-color:  #f7f6f4;
+    }
+}
